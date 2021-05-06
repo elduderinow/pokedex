@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Roboto&display=swap');
+
+body {
+  background-color: darkseagreen;
+}
+
+.field-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#pokedex {
+
+
+  .poke-left {
+    transform: translateX(-500px);
+    position: absolute;
+    width: 500px;
+    height: 700px;
+    background-color: #b41616;
+    display: inline-block;
+
+
+    .pokeheader {
+      width: 500px;
+      height: 100px;
+      background-color: #8b1111;
+    }
+
+    .display {
+      position: relative;
+      margin: 0 auto;
+      width: 450px;
+      height: 300px;
+      background-color: lightgray;
+
+      img {
+        width: 200px;
+        height: 200px;
+      }
+
+      .display-evo {
+        position: relative;
+        width: 450px;
+        height: 100px;
+        background-color: #a3a3a3;
+
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+    }
+
+    .left-rand-buttons {
+      #Layer_1 {
+        margin-top:100px;
+        width:100px;
+        fill:orange;
+        stroke:blue;
+        stroke-width: 10;
+      }
+      padding-top: 50px;
+    }
+
+  }
+
+  .poke-right {
+    position: absolute;
+    transform: translateX(0px);
+    transform: translateY(100px);
+    width: 500px;
+    height: 600px;
+    background-color: #b41616;
+    display: inline-block;
+
+    .display {
+      text-align: left;
+      margin: 0 auto;
+      width: 450px;
+      height: 150px;
+      background-color: lightgray;
+
+      ul {
+        list-style-type: none;
+
+        li {
+          list-style-type: none;
+        }
+      }
+    }
+
+    .input {
+      margin: 0 auto;
+      width: 450px;
+      height: 40px;
+      background-color: white;
+    }
+
+    .right-buttons {
+      margin: 0 auto;
+      width: 450px;
+      height: 150px;
+      background-color: blue;
+    }
+  }
+
+  .left-rand-buttons {
+    margin: 0 auto;
+    height: 300px;
+    width: 450px;
+    background-color: #8b1111;
+  }
+
+  .right-rand-buttons {
+    margin: 0 auto;
+    height: 250px;
+    width: 450px;
+    background-color: #8b1111;
+  }
+
+}
+
+
+
+
+
