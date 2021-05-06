@@ -24,25 +24,76 @@
             <div id="pokedex">
                 <div class="poke-left">
                     <div class="pokeheader">
-                    </div>
-                    <div class="display">
-                        <div id="poke-id">0</div>
-                        <div id="poke-HP">10HP</div>
-                        <div id="poke-Atk">30 ATT</div>
-                        <div id="poke-type">Grass</div>
-                        <div id="pokename">Fill in a name and look up your Pokemon.</div>
-                       <img class="pimg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png">
-
-                        <div id="poke-text" class="">
-
+                        <div class="bol"></div>
+                        <div class="bol2"></div>
+                        <div class="bol3"></div>
+                        <div class="bol4"></div>
+                        <div class="wrapperbollen">
+                            <div class="bol-small"></div>
+                            <div class="bol2-small"></div>
+                            <div class="bol3-small"></div>
+                            <div class="bol4-small"></div>
+                            <div class="bol-small2"></div>
+                            <div class="bol2-small2"></div>
+                            <div class="bol3-small2"></div>
+                            <div class="bol4-small2"></div>
                         </div>
-                        <div class="display-evo">
-                            <img class="pimg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png">
+                    </div>
+                    <svg id="top-bar" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 78">
+                        <polygon class="cls-1" points="500 39 250 39 211 78 0 78 0 0 500 0 500 39"/>
+                    </svg>
+
+                    <div class="pdname">POKEDEX 3000</div>
+
+                    <div class="display-wrapper">
+                        <div class="display">
+                            <div class="stats-wrapper row">
+                                <div id="poke-HP" class="col-4">10 HP</div>
+                                <div id="poke-Atk" class="col-4">30 Attack</div>
+                                <div id="poke-type" class="col-4">Fire</div>
+                                <div id="pokename" class="col-12">Charmander</div>
+                            </div>
+                            <div class="img-wrapper">
+                                <img class="pimg"
+                                     src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png">
+                            </div>
+
+                            <div class="text-wrapper">
+                                <div id="poke-text" class="">
+                                    Obviously prefers hot places. When it rains, steamis said to spout from the tip of its tail.
+                                </div>
+                            </div>
+                            <div class="display-evo">
+                                <img class="pimg"
+                                     src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png">
+                                <img class="pimg"
+                                     src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png">
+
+                            </div>
                         </div>
                     </div>
-                    <div class="left-rand-buttons">
-                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 207 207"><path d="M738.5,412.66v47.68a10.16,10.16,0,0,1-10.16,10.16H679.16A10.16,10.16,0,0,0,669,480.66v49.18A10.16,10.16,0,0,1,658.84,540H611.16A10.16,10.16,0,0,1,601,529.84V480.66a10.16,10.16,0,0,0-10.16-10.16H541.66a10.16,10.16,0,0,1-10.16-10.16V412.66a10.16,10.16,0,0,1,10.16-10.16h49.18A10.16,10.16,0,0,0,601,392.34V343.16A10.16,10.16,0,0,1,611.16,333h47.68A10.16,10.16,0,0,1,669,343.16v49.18a10.16,10.16,0,0,0,10.16,10.16h49.18A10.16,10.16,0,0,1,738.5,412.66Z" transform="translate(-531.5 -333)"/></svg>
+                    <div class="left-rand-buttons row">
+                        <div class="col">
+                            <div class="circle shadow"></div>
+                        </div>
+                        <div class="col">
+                            <div class="midbut select"></div>
+                            <div class="midbut start"></div>
+                            <div id="poke-id" class="screen">ID: 1</div>
+                        </div>
+                        <div class="col">
+                            <svg id="plusbutton" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 207 207">
+                                <path d="M738.5,412.66v47.68a10.16,10.16,0,0,1-10.16,10.16H679.16A10.16,10.16,0,0,0,669,480.66v49.18A10.16,10.16,0,0,1,658.84,540H611.16A10.16,10.16,0,0,1,601,529.84V480.66a10.16,10.16,0,0,0-10.16-10.16H541.66a10.16,10.16,0,0,1-10.16-10.16V412.66a10.16,10.16,0,0,1,10.16-10.16h49.18A10.16,10.16,0,0,0,601,392.34V343.16A10.16,10.16,0,0,1,611.16,333h47.68A10.16,10.16,0,0,1,669,343.16v49.18a10.16,10.16,0,0,0,10.16,10.16h49.18A10.16,10.16,0,0,1,738.5,412.66Z"
+                                      transform="translate(-531.5 -333)"/>
+                            </svg>
+                        </div>
+
                     </div>
+
+
+                </div>
+                <div class="poke-mid">
 
                 </div>
                 <div class="poke-right">
@@ -51,32 +102,49 @@
                     <div class="display">
                         <div class="row">
                             <div class="col-6">
-                                <ol id="moves">
+                                <h3>Abilities</h3>
+                                <ol id="moves" class="lists">
+                                    <li>Passive Abilities</li>
+                                    <li>passive abilties 1</li>
+                                    <li>passive abilties 2</li>
+                                    <li>Move 3</li>
                                 </ol>
                             </div>
                             <div class="col-6">
-                                <ul>
+                                <h3>Passive Abilities</h3>
+                                <ol class="lists">
+                                    <li>Passive Abilities</li>
                                     <li>passive abilties 1</li>
                                     <li>passive abilties 2</li>
                                     <li>Move 3</li>
                                     <li>Move 4</li>
-                                </ul>
+                                </ol>
                             </div>
                         </div>
+                        <div id="input" class="input">
+                            <form>
+                                <input type="text" name="poke-input" id="poke-input" placeholder="Search Pokémon"/>
+                            </form>
+                        </div>
                     </div>
-                    <div id="input" class="input">
-                        <form>
 
-                            <input type="text" name="poke-input" id="poke-input" />
-                            <button type="button" id="run">Run the script</button>
-                        </form>
-                    </div>
                     <div class="right-buttons">
-                        BUTTONS with no functions, its just cool.
+                        <ul>
+                            <li>ABC</li>
+                            <li>DEF</li>
+                            <li>GHI</li>
+                            <li>JKL</li>
+                            <li type="button" id="run">RUN</li>
+                            <li>MNO</li>
+                            <li>PQR</li>
+                            <li>STU</li>
+                            <li>VWX</li>
+                            <li>YZ</li>
+                        </ul>
                     </div>
 
                     <div class="right-rand-buttons">
-                       Random buttons for cool visuals
+                        Random buttons for cool visuals
                     </div>
                 </div>
             </div>
