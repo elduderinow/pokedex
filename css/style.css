@@ -198,6 +198,27 @@ body {
   -webkit-box-shadow: 0px 2px 4px #2b110e;
   box-shadow: 0px 2px 4px #2b110e;
 }
+#pokedex .poke-left .pokeheader .bol5-small2 {
+  position: absolute;
+  left: 200px;
+  top: 29px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #94eab7;
+  z-index: 10;
+  border-top: 1px solid #d26666;
+  filter: blur(4px);
+  -moz-box-shadow: 0px 2px 4px #2b110e;
+  -webkit-box-shadow: 0px 2px 4px #2b110e;
+  box-shadow: 0px 2px 4px #2b110e;
+  animation: blinker 0.5s linear infinite;
+}
+@keyframes blinker {
+  10% {
+    opacity: 0;
+  }
+}
 #pokedex .poke-left #top-bar {
   fill: #8b1111;
 }
