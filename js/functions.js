@@ -155,8 +155,7 @@ function hotM() {
     pName.innerHTML = "Hot Marijke";
     pTxt.innerHTML = "veel liefs";
     pId.innerHTML = "ID: 69";
-    pImg.forEach((elem) => elem.setAttribute("src", `https://images0.persgroep.net/rcs/M6jWO-WNyEWBnR7H-U4Nwast4c4/diocontent/18412256/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8`));
-
+    pImg.setAttribute("src", "https://images0.persgroep.net/rcs/M6jWO-WNyEWBnR7H-U4Nwast4c4/diocontent/18412256/_fitwidth/694/?appId=21791a8992982cd8da851550a453bd7f&quality=0.8");
     for (let i = 0; i < 4; i++) {
         let movez = ["Verwennen", "Masseren", "Happy Ending", "Or very bad ending"]
         let li = document.createElement('li')
