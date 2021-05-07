@@ -1,38 +1,34 @@
-# AJAX Pokédex
+# Title: Pokedex
 
-## Practical Information
+Creating a Pokedex in HTML and CSS and javascript.
 
-* Repository: `ajax-pokedex`
-* Deadline: 2 days
-* Delivery: Github page (published)
-* Team: groups of 2
+- Repository: `pokedex`
+- Language: HTML, SCSS, Javascript
 
-## Learning Objectives
+## WHAT IS A POKEDEX
+he Pokédex (Japanese: ポケモン図鑑 illustrated Pokémon encyclopedia) is a digital encyclopedia created by Professor Oak as an invaluable tool to Trainers in the Pokémon world. ... They may give background information on the habitat or activities of a Pokémon in the wild or other information on the Pokémon's history or anatomy.
 
-* A typical AJAX flow: send asynchronous requests to a remote server and process the results;
-* **[JSON](https://www.w3schools.com/js/js_json_intro.asp)** (JavaScript Object Notation) format;
-* DOM manipulation: changing the DOM based on results of AJAX-requests.
+## PURPOSE
+The purpose of this project is to learn to handle DOM elements, fetching and manipumlating API data in a json file.
+Create the pokedex out of CSS to improve the CSS and SCSS skills.
 
-## Exercise
+## FUNCTIONALITIES
+- Working lookup but input of pokemon names and or ID nr.
+- Stats like NAME, HP, ATTACK and TYPE are displayed.
+- A brief discription of the pokemon.
+- 4 random abilities every time you run the same pokemon.
+- 2 passive abilities are also displayed
+- The previous form of the evolution is displayed.
+- The ID nr is dispayed
 
-Make a [Pokédex](https://www.google.com/search?q=pokedex&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiRtNT3-vDfAhWDy6QKHd1cBD4Q_AUIDigB&biw=1300&bih=968#imgrc=_) using [this API](https://pokeapi.co/).
+## THE PROJECT ITSEL & MY OPINION
+I had a fun time working on this project, most of the parts were easy, where I did not need the internet or whatsoever. I did sometimes had to look back to the previous excercises because I forgot the right syntax. But what I want to do and how I want to do it, it's already in my head.
 
-Basic functionality that is expected (read: core features):
-* You can search a pokémon by name and by ID
-* Of said pokémon you need to show:
-    * The ID-number
-    * An image (sprite)
-    * _At least_ 4 "moves"
-    * The previous evolution, _only if it exists_, along with their name and image. Be carefull, you cannot just do ID-1 to get the previous form, for example look into "magmar" - "magmortar". You have to use a seperate api call for this!
+HTML and css was easy, but the part where I needed to display the previous form in javascript got me thinking.
 
-Make your web page look like a pokédex by adding a little CSS.
+I did managed to get it done, but with another fetch of the same API object, not as good code as I wanted to beceause of the time limit.
 
-_Note: For this exercise, the goal is to keep working on it, until the deadline is reached. If you are finished adding all "core features", look at what else the API has to offer, and try adding some other features. At the end of the deadline, everyone is going to present the pokédex they made; As such it is important that you have published your web page on GitHub!_
+I however will keep improving this pokedex because I like it and there are many extra improvements to be done.
 
-# Extra challenge
-There are a couple of pokemon that don't play with the normal rules, add code so their cases are also handled elegantly.
+I think it's a nice assigment for learning HMTL, CSS and JS.
 
-- Ditto only has 1 move.
-- Eevee has 6 evolutions.
-
-![Pokedex](pokedex.jpg)

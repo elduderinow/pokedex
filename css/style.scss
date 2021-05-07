@@ -35,10 +35,10 @@ body {
 
     .pdname {
       font-family: 'Press Start 2P', cursive;
-      font-size:10px;
+      font-size:18px;
       color: #470b0b;
       position: absolute;
-      top:125px;
+      top:115px;
       right:25px;
     }
 
@@ -255,11 +255,29 @@ body {
 
       filter: drop-shadow(0 0 0.15rem #310606);
 
+
+      .display-evo {
+        ul {
+          font-family: 'Press Start 2P', cursive;
+          font-size:10px;
+          color: #1b546f;
+          padding-left: 0;
+          margin-bottom: 0;
+          padding:10px 0;
+          li {
+
+            display: inline-block;
+            list-style-type: none;
+          }
+        }
+      }
       .stats-wrapper {
         color: #1b546f;
         padding-top:10px;
         font-family: 'Press Start 2P', cursive;
         font-size:9px;
+
+
 
         div#pokename {
           padding-top: 5px;
@@ -316,8 +334,10 @@ body {
       }
 
       .display-evo {
+        height: 100px;
         position: relative;
         background-color: rgba(0, 0, 0, 0.1);
+
 
         img {
           width: 80px;
@@ -363,10 +383,32 @@ body {
       }
 
       .start {
+        float: right;
         background-color: blue;
         border-top: 2px solid #5858ea;
       }
+/*
+      .plus {
+           transform: translateX(60px);
+        .blokplus {
 
+          width: 30px;
+          height:30px;
+          background-color: black;
+
+          -moz-box-shadow: 0 2px 2px #2b0a09;
+          -webkit-box-shadow: 0 2px 2px #2b0a09;
+          box-shadow: 0 2px 2px #2b0a09;
+        }
+
+        .
+        .blok2 {
+          width: 90px;
+          transform: translateX(-30px);
+        }
+      }
+
+*/
       .screen {
         padding-top: 12px;
         margin-top: 25px;
