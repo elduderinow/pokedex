@@ -59,6 +59,16 @@ document.getElementById("run").addEventListener('keypress', function () {
 
 });
 
+//Randomize button. Create random nr between 0 and 808.
+document.getElementById("random").addEventListener('click', function (){
+    pMov.innerHTML = "";
+    movesArr = [];
+    let randomize = Math.floor(Math.random() * 808);
+    getData(randomize, (pokRes) => {
+
+    });
+});
+
 //activate func gets activated after event handlers. It will first clear the  abilities list so a nex append can happen.
 //The moves arr also gets cleared.
 function activate() {
@@ -110,10 +120,6 @@ function changePok(pok) {
     pTxt.innerHTML = pok.flavor_text_entries[0].flavor_text;
     pabil1.innerHTML = pok.abilities[0].ability.name;
     pabil2.innerHTML = pok.abilities[1].ability.name;
-
-    console.log(pok);
-    console.log(pok.evolves_from_species);
-
 
     //check if there are any evolutions, if yes, display them, else clear the text field.
     if (pok.evolves_from_species === null) {

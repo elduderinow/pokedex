@@ -9,6 +9,11 @@ body {
   background-repeat: no-repeat;
 }
 
+audio {
+  position:absolute;
+  right:450px;
+  top:80px;
+}
 
 .field-container {
   text-align: center;
@@ -92,8 +97,6 @@ body {
         background-color: #b5cdcd;
         z-index: 10;
         filter: blur(4px);
-
-
 
 
       }
@@ -614,6 +617,75 @@ body {
           color: #684317;
           border-top: 2px solid #f5c126;
           border-bottom: 2px solid #c99909;
+        }
+      }
+
+    }
+
+    .right-rand-buttons {
+        text-align: left;
+      padding-left: 40px;
+
+      .rightbut {
+        margin: 0 5px;
+        width: 45px;
+        height: 10px;
+        background-color: #242424;
+        border-radius: 25px;
+        float: right;
+        border-top: 2px solid #555555;
+        border-bottom: 2px solid #000000;
+        -moz-box-shadow: 0 2px 2px #2b0a09;
+        -webkit-box-shadow: 0 2px 2px #2b0a09;
+        box-shadow: 0 2px 2px #2b0a09;
+
+        &:hover {
+          color: #5f5f5f;
+          cursor: pointer;
+          border-top: 2px solid #404040;
+          border-bottom: 2px solid #000000;
+
+          -moz-box-shadow: 0 1px 1px #2b0a09;
+          -webkit-box-shadow: 0 1px 1px #2b0a09;
+          box-shadow: 0 1px 1px #2b0a09;
+        }
+      }
+
+      .but1 {
+        margin-right: 47px;
+      }
+
+
+      .rand-button {
+        clear: both;
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+        padding-top: 15px;
+        font-size: 10px;
+        color: #474747;
+        border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        margin: 5px;
+        margin-top:40px;
+        display: inline-block;
+        background-color: #e0e0e0;
+        border-top: 2px solid #ffffff;
+        border-bottom: 2px solid #666666;
+
+        -moz-box-shadow: 0 2px 2px #2b0a09;
+        -webkit-box-shadow: 0 2px 2px #2b0a09;
+        box-shadow: 0 2px 2px #2b0a09;
+
+        &:hover {
+          color: #5f5f5f;
+          cursor: pointer;
+          border-top: 2px solid #e2e2e2;
+          border-bottom: 2px solid #909090;
+
+          -moz-box-shadow: 0 1px 1px #2b0a09;
+          -webkit-box-shadow: 0 1px 1px #2b0a09;
+          box-shadow: 0 1px 1px #2b0a09;
         }
       }
 
